@@ -1,0 +1,1506 @@
+# Copyright (C) 2020 Vektor,Inc.
+# This file is distributed under the .
+msgid ""
+msgstr ""
+"Project-Id-Version: Katawara 0.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/html\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-16T04:59:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: katawara\n"
+
+#. Theme Name of the theme
+msgid "Katawara"
+msgstr ""
+
+#. Description of the theme
+msgid "katawara is a simple and easy to use theme with side menu"
+msgstr ""
+
+#. Author of the theme
+msgid "Vektor,Inc."
+msgstr ""
+
+#. translators: Value of Comments.
+#: comments.php:30
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+#: comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43
+#: comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: front-page.php:73
+#: index.php:78
+msgid "Page"
+msgstr ""
+
+#: front-page.php:84
+#: index.php:83
+msgid "No posts."
+msgstr ""
+
+#: functions.php:146
+msgid "Header Side Widget(PC Only)"
+msgstr ""
+
+#: functions.php:157
+msgid "Sidebar(Home)"
+msgstr ""
+
+#: functions.php:167
+msgid "Sidebar(Common top)"
+msgstr ""
+
+#: functions.php:177
+msgid "Sidebar(Common bottom)"
+msgstr ""
+
+#: functions.php:199
+msgid "This widget area appears on the Posts page only. If you do not set any widgets in this area, this theme sets the following widgets \"Recent posts\", \"Category\", and \"Archive\" by default. These default widgets will be hidden, when you set any widgets. <br><br> If you installed our plugin VK All in One Expansion Unit (Free), you can use the following widgets, \"VK_Recent posts\",  \"VK_Categories\", and  \"VK_archive list\"."
+msgstr ""
+
+#: functions.php:201
+msgid "This widget area appears on the Pages page only. If you do not set any widgets in this area, this theme sets the \"Child pages list widget\" by default. This default widget will be hidden, when you set any widgets. <br><br> If you installed our plugin VK All in One Expansion Unit (Free), you can use the \"VK_ child page list\" widget for the alternative."
+msgstr ""
+
+#: functions.php:203
+msgid "This widget area appears on the Media page only."
+msgstr ""
+
+#. translators: This widget area is for only the post type.
+#: functions.php:206
+msgid "This widget area appears on the %s contents page only."
+msgstr ""
+
+#. translators: Post Type Name.
+#: functions.php:213
+msgid "Sidebar(%s)"
+msgstr ""
+
+#: functions.php:229
+msgid "Home content top"
+msgstr ""
+
+#: functions.php:241
+#: inc/widget-area-setting/package/class-widget-area-setting.php:54
+msgid "Widget area of upper footer"
+msgstr ""
+
+#: functions.php:257
+msgid "Footer widget area "
+msgstr ""
+
+#: inc/copyright-customizer/package/class-copyright-customizer.php:47
+#: inc/copyright-customizer/package/class-copyright-customizer.php:64
+msgid "Copyright Setting"
+msgstr ""
+
+#: inc/copyright-customizer/package/class-copyright-customizer.php:69
+msgid "Please fill box to footer html text you want."
+msgstr ""
+
+#: inc/copyright-customizer/package/class-copyright-customizer.php:71
+msgid "If you fill noting, Footer will display noting."
+msgstr ""
+
+#: inc/custom-field-builder/package/custom-field-builder.php:58
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2180
+msgid "Required"
+msgstr ""
+
+#: inc/custom-field-builder/package/custom-field-builder.php:171
+msgid "Choose Image"
+msgstr ""
+
+#: inc/custom-field-builder/package/custom-field-builder.php:175
+msgid "Delete Image"
+msgstr ""
+
+#: inc/custom-field-builder/package/custom-field-builder.php:179
+msgid "Select file"
+msgstr ""
+
+#: inc/custom-field-builder/package/custom-field-builder.php:181
+msgid "View file"
+msgstr ""
+
+#: inc/customize/customize-design.php:11
+msgid "Design settings"
+msgstr ""
+
+#: inc/customize/customize-design.php:31
+msgid "Header logo image"
+msgstr ""
+
+#: inc/customize/customize-design.php:34
+msgid "Recommended image size : 280*60px"
+msgstr ""
+
+#: inc/customize/customize-design.php:82
+msgid "Key color"
+msgstr ""
+
+#: inc/customize/customize-design.php:106
+msgid "Key color (dark)"
+msgstr ""
+
+#: inc/customize/customize-design.php:125
+msgid "Other Setting"
+msgstr ""
+
+#: inc/customize/customize-design.php:154
+msgid "Don't show default content(Post list or Front page) at home page"
+msgstr ""
+
+#: inc/customize/customize-design.php:173
+msgid "Hide modified date on single pages."
+msgstr ""
+
+#: inc/customize/customize-design.php:191
+msgid "Don't display post author on a single page"
+msgstr ""
+
+#: inc/customize/customize-design.php:209
+msgid "Don't display grandchild page of deactive page at page sidebar."
+msgstr ""
+
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:39
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:54
+msgid "Not recommended"
+msgstr ""
+
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:86
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:88
+msgid "Ex ) "
+msgstr ""
+
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:190
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:213
+msgid "Font Awesome Version"
+msgstr ""
+
+#: inc/font-awesome/package/class-vk-font-awesome-versions.php:216
+msgid "4.7 will be abolished in the near future."
+msgstr ""
+
+#: inc/headding-design/headding-design.php:21
+msgid "H2 and main section title"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:31
+msgid "Sub section title"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:38
+msgid "Footer section title"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:44
+msgid "H3"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:50
+msgid "H4"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:56
+msgid "H5"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:62
+msgid "H6"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:79
+msgid "Plain"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:102
+msgid "Speech balloon fill"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:139
+msgid "Background fill"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:162
+msgid "Background fill stitch"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:186
+msgid "Background fill lightgray"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:211
+msgid "Top border keycolor background fill none"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:239
+msgid "Top border keycolor background fill black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:267
+msgid "Double"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:293
+msgid "Double black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:319
+msgid "Double bottom border"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:344
+msgid "Double bottom border black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:369
+msgid "Solid"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:395
+msgid "Solid black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:421
+msgid "Solid bottom border"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:447
+msgid "Solid bottom border black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:473
+msgid "Solid bottom border left keycolor"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:514
+msgid "Dotted bottom border black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:541
+msgid "Both ends"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:582
+msgid "Left border"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:608
+msgid "Left border nobackground"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:635
+msgid "Diagonal stripe bottom border"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:673
+msgid "Brackets"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:720
+msgid "Brackets black"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:767
+msgid "Small bottom border"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:829
+msgid "Headding Design"
+msgstr ""
+
+#: inc/headding-design/headding-design.php:841
+msgid "No setting"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:12
+msgid "Katawara Layout settings"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:30
+msgid "Column Setting"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:42
+msgid "Home page"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:46
+msgid "Search"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:49
+msgid "404 page"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:52
+msgid "Archive page"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:55
+msgctxt "customize-layout"
+msgid "Page"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:58
+msgid "Single page"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:64
+#: inc/vk-font-selector/package/class-vk-font-selector.php:60
+msgid "Unspecified"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:65
+#: inc/layout-controller/admin-post-meta.php:53
+#: inc/widget-area-setting/package/class-widget-area-setting.php:134
+msgid "2 column"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:66
+#: inc/layout-controller/admin-post-meta.php:54
+#: inc/widget-area-setting/package/class-widget-area-setting.php:133
+msgid "1 column"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:67
+#: inc/layout-controller/admin-post-meta.php:55
+msgid "1 column ( No sub section )"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:113
+msgid "Sidebar Setting"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:136
+msgid "Sidebar position ( PC mode )"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:141
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:412
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:371
+#: inc/vk-page-header/package/class-vk-page-header.php:377
+msgid "Right"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:142
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:410
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:365
+#: inc/vk-page-header/package/class-vk-page-header.php:375
+msgid "Left"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:162
+msgid "Sidebar fix"
+msgstr ""
+
+#: inc/layout-controller/admin-customize-layout.php:179
+msgid "Don't fix the sidebar"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:18
+msgid "Katawara design setting"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:40
+msgid "Layout setting"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:52
+msgid "Use common settings"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:71
+msgid "Page Header and Breadcrumb"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:75
+msgid "Don't display"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:90
+msgid "Padding and margin setting"
+msgstr ""
+
+#: inc/layout-controller/admin-post-meta.php:94
+msgid "Delete siteContent padding"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:95
+msgid "Archive Page Setting"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:104
+msgid "Author"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:106
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:71
+msgid "default"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:137
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:176
+msgid "Display conditions"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:140
+msgid "Number of posts per page"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:175
+msgid "Display type and columns [ %s ]"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:200
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:253
+msgid "Display type"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:227
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:283
+msgid "Extra small"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:228
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:284
+msgid "Small"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:229
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:285
+msgid "Medium"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:230
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:286
+msgid "Large"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:231
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:287
+msgid "Extra large"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:245
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:292
+msgid "Column ( Screen size : %s )"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:264
+msgid "Display item [ %s ]"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:275
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:312
+msgid "Image"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:279
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:313
+msgid "Term name"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:283
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:314
+msgid "Excerpt"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:287
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:315
+msgid "Date"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:291
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:316
+msgid "New mark"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:295
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:317
+msgid "Button"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:332
+msgid "New mark option [ %s ]"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:348
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:338
+msgid "Number of days to display the new post mark"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:365
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:344
+msgid "New mark text"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:386
+msgid "Button option [ %s ]"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:402
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:354
+msgid "Button text"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:411
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:368
+#: inc/vk-page-header/package/class-vk-page-header.php:376
+msgid "Center"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-admin.php:425
+#: inc/vk-page-header/package/class-vk-page-header.php:369
+msgid "Text align"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:18
+#: inc/vk-components/package/class-vk-component-posts.php:362
+msgid "Card"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:22
+#: inc/vk-components/package/class-vk-component-posts.php:366
+msgid "Card Horizontal"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:26
+#: inc/vk-components/package/class-vk-component-posts.php:370
+msgid "Media"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:44
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:76
+#: inc/vk-components/package/class-vk-component-posts.php:33
+msgid "Read more"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:47
+#: inc/vk-components/package/class-vk-component-posts.php:35
+#: template-parts/post/loop-layout-card.php:25
+msgid "New!!"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-bs4.php:85
+msgid "Pages"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:15
+msgid "Media Posts BS4"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:19
+msgid "It is a widget that displays the post list. Various shapes can be selected."
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:35
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:60
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:178
+msgid "Display post types"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:218
+msgid "Category(Term) ID"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:223
+msgid "If you need filtering by category(term), add the category ID separate by \",\"."
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:225
+msgid "If empty this area, I will do not filtering."
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:236
+msgid "Display count"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:250
+msgid "Display type and columns"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:275
+msgid "Columns"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:278
+msgid "Please input column count to under the range of 1 to 4."
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:308
+msgid "Display item"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:330
+msgid "New mark option"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:350
+msgid "Button option"
+msgstr ""
+
+#: inc/media-posts-bs4/package/class-media-posts-widget.php:359
+msgid "Button align"
+msgstr ""
+
+#: inc/template-tags.php:169
+msgid "Simple and Customize easy <br>WordPress theme."
+msgstr ""
+
+#: inc/template-tags.php:170
+msgid "100% GPL Lisence  and adopting the bootstrap"
+msgstr ""
+
+#: inc/template-tags.php:171
+#: inc/template-tags.php:180
+msgid "READ MORE"
+msgstr ""
+
+#: inc/template-tags.php:178
+msgid "Johnijirou On Snow"
+msgstr ""
+
+#: inc/template-tags.php:179
+msgid "Growing up everyday"
+msgstr ""
+
+#: inc/template-tags.php:396
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:398
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:400
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:402
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:417
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:430
+msgid "Copyright &copy; %s All Rights Reserved."
+msgstr ""
+
+#: inc/template-tags.php:435
+msgid "<p>Powered by <a href=\"https://wordpress.org/\">WordPress</a> &amp; <a href=\"https://vws.vektor-inc.co.jp/\" target=\"_blank\" title=\"Free WordPress Theme katawara\"> katawara Theme</a> by Vektor,Inc. technology.</p>"
+msgstr ""
+
+#: inc/term-color/package/class.term-color.php:41
+#: inc/term-color/package/class.term-color.php:56
+#: inc/term-color/package/class.term-color.php:130
+msgid "Color"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgm-config.php:122
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: inc/tgm-plugin-activation/tgm-config.php:123
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: inc/tgm-plugin-activation/tgm-config.php:124
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:336
+#: inc/tgm-plugin-activation/tgm-config.php:125
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#: inc/tgm-plugin-activation/tgm-config.php:126
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:347
+#: inc/tgm-plugin-activation/tgm-config.php:136
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+#: inc/tgm-plugin-activation/tgm-config.php:141
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:357
+#: inc/tgm-plugin-activation/tgm-config.php:146
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:362
+#: inc/tgm-plugin-activation/tgm-config.php:151
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#: inc/tgm-plugin-activation/tgm-config.php:156
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:372
+#: inc/tgm-plugin-activation/tgm-config.php:161
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+#: inc/tgm-plugin-activation/tgm-config.php:166
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+#: inc/tgm-plugin-activation/tgm-config.php:171
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/tgm-config.php:176
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/tgm-config.php:181
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgm-config.php:186
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3042
+#: inc/tgm-plugin-activation/tgm-config.php:187
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:400
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2845
+#: inc/tgm-plugin-activation/tgm-config.php:188
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#: inc/tgm-plugin-activation/tgm-config.php:189
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+#: inc/tgm-plugin-activation/tgm-config.php:190
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+#: inc/tgm-plugin-activation/tgm-config.php:191
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:405
+#: inc/tgm-plugin-activation/tgm-config.php:192
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:826
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3460
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:942
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:942
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1124
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2841
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1894
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2183
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2199
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2202
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2205
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2222
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2226
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2228
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2234
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2237
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2240
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2248
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2293
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2296
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2299
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2302
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2384
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2435
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2449
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2450
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2451
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2455
+msgid "Version"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2456
+msgid "Status"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2504
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2508
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2513
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2616
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2622
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2625
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2656
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2658
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2694
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2696
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2801
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2827
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3041
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3379
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3381
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3382
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3386
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3387
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3388
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3389
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3392
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3393
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3394
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3395
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3400
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3400
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation/tgm-config.php:131
+msgid "This theme recommends the following plugin: %1$s.<br>Many additional functions are available for free."
+msgid_plural "This theme recommends the following plugins: %1$s.<br>Many additional functions are available for free."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/vk-breadcrumb/package/class-vk-breadcrumb.php:29
+msgid "HOME"
+msgstr ""
+
+#. translators: Post Not Found.
+#: inc/vk-breadcrumb/package/class-vk-breadcrumb.php:220
+#: template-parts/page-header.php:87
+msgid "Not found"
+msgstr ""
+
+#. translators: Search Title.
+#. translators: Search Result with Keyword.
+#. translators: Search Result with Keyword on bbpress.
+#: inc/vk-breadcrumb/package/class-vk-breadcrumb.php:229
+#: template-parts/page-header.php:80
+#: template-parts/page-header.php:84
+msgid "Search Results for : %s"
+msgstr ""
+
+#: inc/vk-breadcrumb/package/class-vk-breadcrumb.php:237
+msgid "Search Results"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:55
+msgid "Campaign Text"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:74
+msgid "Display Campaign Text"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:95
+msgid "Icon"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:99
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:380
+msgid "To choose your favorite icon, and enter the class."
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:117
+msgid "Main Text"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:140
+msgid "Main Text Color"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:163
+msgid "Main Background Color"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:184
+msgid "Button Text"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:207
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:230
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:276
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:253
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/vk-campaign-text/package/class-vk-campaign-text.php:297
+msgid "Button URL"
+msgstr ""
+
+#: inc/vk-components/package/class-vk-component-posts.php:374
+msgctxt "post list type"
+msgid "Text 1 Column"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:64
+msgid "Mincho"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:68
+msgid "Hiragino Kaku Gothic"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:72
+msgid "Yu Gothic"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:76
+msgid "Meiryo"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:80
+msgid "San Francisco"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:428
+#: inc/vk-font-selector/vk-font-selector-config.php:17
+msgid "Header Logo"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:432
+msgid "Global Menu"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:436
+#: inc/vk-font-selector/vk-font-selector-config.php:29
+msgid "Title"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:440
+#: inc/vk-font-selector/vk-font-selector-config.php:33
+msgid "Text"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:457
+msgid "Font Setting"
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:464
+msgid "If you want to apply the same font on mobile devices, please select web font (Google Fonts)."
+msgstr ""
+
+#: inc/vk-font-selector/package/class-vk-font-selector.php:465
+msgid "The web font (Google Fonts) loads the font data, so the display will be slightly late."
+msgstr ""
+
+#: inc/vk-font-selector/vk-font-selector-config.php:21
+msgid "Global Menu / Mobile Menu"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:76
+msgid "Widget area of mobile fix nav"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:168
+msgid "Mobile Fix Nav"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:188
+msgid "Do not display Mobile Fix Nav"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:207
+msgid "Mobile Fix Nav Widget Area"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:231
+msgid "Add Widget Area Padding"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:250
+msgid "Add menu open and close button"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:274
+msgid "Add menu open and close button to first."
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:278
+msgid "* When using Font Awesome 5 SVG, the icon does not switch at menu open."
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:300
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:349
+msgid "Link text:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:325
+msgid "Fix Navi button"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:376
+msgid "Icon font class name:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:399
+msgid "Link URL:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:403
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:448
+msgid "Ex"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:422
+msgid "Open link new tab."
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:444
+msgid "Click event:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:466
+msgid "Navi Common Settings"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:492
+msgid "Text Color:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:516
+msgid "Background Color:"
+msgstr ""
+
+#: inc/vk-mobile-fix-nav/package/class-vk-mobile-fix-nav.php:540
+msgid "Current Color:"
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:59
+msgid "Mobile Nav Upper"
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:69
+msgid "Mobile Nav Bottom"
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:97
+msgid "This is the widget area.<br>You can set widget item from [ <a href=\"%s\">Appearance > Customize</a> ] Page -> \"Widgets\" panel -> \"Mobile Nav Upper\" Panel."
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:98
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:132
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:143
+msgid "* This message is displayed only to users with editing authority."
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:131
+msgid "Menu is not set.<br>Please set menu from [ <a href=\"%s\">Appearance > Customize</a> ] Page -> \"Menus\" panel -> Menu Locations \"Mobile Navigation\"."
+msgstr ""
+
+#: inc/vk-mobile-nav/package/class-vk-mobile-nav.php:142
+msgid "This is the widget area.<br>You can set widget item from [ <a href=\"%s\">Appearance > Customize</a> ] Page -> \"Widgets\" panel -> \"Mobile Nav Bottom\" Panel."
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:286
+msgid "Page Header Setting"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:310
+msgid "Background color"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:330
+msgid "Text color"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:350
+msgid "Text shadow color"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:395
+msgid "Text margin (top and bottom)"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:419
+#: inc/vk-page-header/package/class-vk-page-header.php:452
+#: inc/vk-page-header/package/class-vk-page-header.php:516
+msgid "Page header bg image"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:419
+msgid "Basic"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:422
+msgid "You can set the original image in the background of the page header part."
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:443
+msgid "If you want to change the image of a specific page, you can set it from the editing screen of each fixed page."
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:447
+msgid "When not set, the image of [ Basic ] is applied."
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:471
+msgid "Page header Content Setting"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:477
+msgid "Null"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:478
+msgid "Display only Thumbnail"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:479
+msgid "Display Title, Thumbnail and Post Meta"
+msgstr ""
+
+#: inc/vk-page-header/package/class-vk-page-header.php:494
+msgid "Page Header Image"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:36
+msgid "Widget Area Setting"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:77
+msgid "Delete Padding"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:105
+msgid "Footer widget area"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:128
+msgid "Footer Widget Area Count"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:135
+msgid "3 column"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:136
+msgid "4 column"
+msgstr ""
+
+#: inc/widget-area-setting/package/class-widget-area-setting.php:138
+msgid "* If you save and reload after making changes, the number of the widget area setting panels  will increase or decrease."
+msgstr ""
+
+#: sidebar-post.php:29
+msgid "Recent posts"
+msgstr ""
+
+#: sidebar-post.php:62
+msgid "Category"
+msgstr ""
+
+#: sidebar-post.php:71
+msgid "Archive"
+msgstr ""
+
+#. translators: Template of Taxonomy List.
+#: single.php:66
+msgid "<dl><dt>%s</dt><dd>%l</dd></dl>"
+msgstr ""
+
+#: single.php:87
+msgid "Tags"
+msgstr ""
+
+#: template-parts/post/loop-layout-card.php:27
+msgid "Read More"
+msgstr ""

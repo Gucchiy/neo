@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* 
+レイアウトではなくレイアウト要素の中の指定
+本来は別途 .p-side-section が存在しても良いようなケース
+*/
+.l-side-section {
+	&_inner {
+		ul {
+			list-style: outside none none;
+		}
+	}
+	.media{
+		.postList_thumbnail {
+			width: 80px;
+			padding-right: 15px;
+		}
+		.media-body .media-heading {
+			font-size: 0.875em;
+			//見出し機能のデザイン打消し
+			position: relative;
+			background-color: transparent;
+			outline: unset;
+			outline-offset: unset;
+			box-shadow: unset;
+			border: none;
+			border-radius:unset;
+			padding: 0;
+			color: #333;
+			&::after,
+			&::before{
+				content: none;
+			}
+			
+		}
+		.entry-meta_items {
+			font-size: 12px;
+			color: inherit;
+			&::before {
+				@include font-awesome-icon;
+				content: "\f073";
+			}
+		}
+	}
+}

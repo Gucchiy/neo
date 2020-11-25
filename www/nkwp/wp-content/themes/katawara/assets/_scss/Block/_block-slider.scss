@@ -1,0 +1,22 @@
+@charset "utf-8";
+.swiper-container.vk_slider.vk_width-full {
+	@media ( min-width:$xl-min ){
+		.vk_slider_item_container {
+			width: 90%;
+		}
+		.vk_slider_item-paddingLR-zero {
+			.vk_slider_item_container{
+				width:100%;
+			}
+		}
+		.vk_slider_item-paddingLR-use {
+			/*
+			.vk_slider_item-paddingLR-use に左右 3.5em のpaddingが指定してあるため
+			.vk_slider_item_containerは100%でよい
+			*/
+			.vk_slider_item_container{
+				width:100%;
+			}
+		}
+	}
+}

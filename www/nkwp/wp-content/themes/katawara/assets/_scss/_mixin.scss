@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@mixin time_transition {
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+}
+@mixin font-awesome-icon($margin-right: 7px, $margin-left: 0) {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	margin-right: $margin-right;
+	margin-left: $margin-left;
+}
+
+@mixin li-children-icon {
+	content: "";
+    position: absolute;
+    // top: 1em;
+    left: .3em;
+    width: 6px;
+    height: calc(.8em - 2px);
+    background: 0 0;
+    border-bottom: solid 1px;
+	border-left: solid 1px;
+	color: rgba(0,0,0,.5);
+}
+
+@mixin img-hover {
+	display: block;
+	transition: 0.5s;
+	&:hover{
+		transform: scale(1.1, 1.1);
+		opacity: .8;
+	}
+}

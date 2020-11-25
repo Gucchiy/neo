@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* カラム（水平）で点線と余白ができる */
+.vk_post .row {
+	margin: 0;
+}
+
+.wp-block-image {
+	max-width: 100%;
+	// &.figure {
+	// 	max-width: 100%;
+	// }
+	/* 編集画面専用 */
+	.components-resizable-box__container {
+		max-width: 100%;
+	}
+	figcaption {
+		text-align: center;
+		font-size: 0.75rem;
+	}
+}
+
+.wp-block-table figcaption {
+    margin-top: .4rem;
+    text-align: center;
+    font-size: .75rem;
+}
+.alignleft{
+	float:left;
+	margin-right:2em;
+}
+.alignright{
+	float:right;
+	margin-left:2em;
+}
+.aligncenter{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/*-------------------------------------------*/
+/*  「最新の記事」ブロック
+/*-------------------------------------------*/
+.wp-block-latest-posts {
+	margin: 0;
+	padding: 0;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+	&.is-grid{ //グリット表示の場合
+		margin-left: -8px;
+		margin-right: -8px;
+		li{ 
+			margin: 0 8px 0 8px;
+			padding:.5rem;
+			border-bottom: none;
+		}
+	}
+	&__featured-image{
+		margin-bottom: 1em;
+	}
+	li {
+		margin: 0;
+		padding: 1rem 0;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+
+		a {
+			color: #464646;
+			@media (max-width: 768px) {
+				font-size: 1rem;
+			}
+		}
+		.wp-block-latest-posts__post-date{
+			color: inherit;
+			font-size: 12px;
+		}
+
+	}
+}
+
+/*-------------------------------------------*/
+/*  「検索」ブロック
+/*-------------------------------------------*/
+.wp-block-search{
+	font-size: 1em;
+
+	overflow: auto;
+	color: #777;
+	border: 1px solid rgba(0,0,0,.12);
+	background-color: #fff;
+	border-radius: 4px;
+	.wp-block-search__label{
+		display: none;
+	}
+	// .wp-block-search__input,
+	// .wp-block-search__button{
+	// 	font-size: 1em;
+	// 	padding: .3em 1em;
+	// 	overflow: auto;
+	// 	color: #777;
+	// 	border: 1px solid rgba(0,0,0,.12);
+	// 	background-color: #fff;
+	// }
+	.wp-block-search{
+
+	}
+	.wp-block-search__input{
+		padding: .7em 1em;
+		color: #777;
+		max-width: initial;
+		//編集画面デザイン調整のためreset
+		border: none;
+	}
+	.wp-block-search__button{
+		padding: .7em 1em;
+		color: #777;
+		margin-left: 0;
+		border-left: 1px solid rgba(0,0,0,.12);
+		//編集画面デザイン調整のためreset
+		background-color: #fff;
+		box-shadow: none;
+		border-top: none;
+		border-right: none;
+		border-bottom: none;
+		&::before{
+			font-family: "Font Awesome 5 Free";
+			font-weight: 900;
+			content: "\f002";
+			margin-right: 5px;
+		}
+	}
+}

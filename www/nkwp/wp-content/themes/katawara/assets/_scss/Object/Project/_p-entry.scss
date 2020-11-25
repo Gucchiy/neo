@@ -1,0 +1,107 @@
+.p-entry {
+	&_header {
+		margin-top: 0.8em;
+		.p-entry_title {
+			font-size: 1.75rem;
+			margin-top: 0;
+			line-height: 1.4em;
+		}
+		.p-entry_meta {
+			font-size: 0.9em;
+		}
+		.p-entry_meta_times {
+			margin-bottom: 0.5em;
+		}
+	}
+    &_meta{
+		margin-bottom: 1em;
+		&_posttimes:before {
+			@include font-awesome-icon;
+			content: "\f073";
+		}
+		&_updated:before {
+			@include font-awesome-icon;
+			content: "\f2f1";
+		}
+		&_items {
+			&_term {
+
+
+			}
+			&:not(.entry-meta_items_term) {
+				margin-right: 0.75em;
+			}
+		}
+
+		&_items_author {
+			&:before {
+				margin-right: 7px;
+				@include font-awesome-icon;
+				content: "\f303";
+			}
+		}
+		&_hidden {
+			display: none;
+        }
+        &_data-list {
+            dl {
+                line-height: 1.5;
+                margin-bottom: 1em;
+                margin-top: 1em;
+            }
+            dt {
+                float: left;
+                background-color: $black;
+                color: #fff;
+                font-size: 10px;
+                padding: 4px 10px;
+                margin-right: 10px;
+                border: none;
+                text-align: center;
+                border-radius: var( --item-radius);
+            }
+            dd {
+                a {
+                    font-size: 0.9em;
+                    color: unset;
+                    line-height: 1.2;
+                }
+            }
+            .tagcloud {
+                a {
+                    margin-right:0.5rem;
+                }
+                a:before {
+                    margin-right: 5px;
+                }
+            }
+		}
+
+		.p-entry_meta_items_term, //page header内に表示されている場合のカテゴリー
+		.entry-meta_items_term{ //page headerの外に表示されている場合のカテゴリー
+			&::after {
+				content: " / ";
+				padding-left: 3px;
+				padding-right: 3px;
+			}
+			&:last-child::after {
+				content: none;
+			}
+			&:first-of-type::before{
+				margin-right: 7px;
+				@include font-awesome-icon;
+				content: "\f07b";
+			}
+			a{
+				color: inherit;
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+    } //&_meta
+    &_footer {
+        margin-bottom: 2em;
+        overflow: hidden;
+    }
+}

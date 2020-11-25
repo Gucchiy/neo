@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+@import "variable";
+
+body {
+	font-size: 14px;
+	line-height: 1.5;
+	word-wrap: break-word;
+	color: #333;
+	@media (min-width: 992px) {
+		font-size: 15px;
+	}
+}
+
+//.admin-bar
+@media (min-width: 992px) {
+	body.admin-bar .l-side-section {
+		// top: 32px;
+	}
+}
+
+a {
+	text-decoration: none;
+	@include time_transition;
+}
+a {
+	color: #337ab7;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #22527b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 1.5em 0 1.2em;
+	clear: both;
+	font-weight: 500;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.75rem;
+}
+h3 {
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1.125rem;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 1.2em;
+	@media screen and (min-width: $xl-min){		
+		line-height: 2;
+	}
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border-top: $border_primary;
+	th,
+	td,
+	thead tr th,
+	thead tr td,
+	tbody tr th,
+	tbody tr td {
+		border-bottom: $border_primary;
+	}
+	th,
+	td {
+		padding: 1em;
+		font-size: 14px;
+	}
+	th {
+		text-align: inherit;
+	}
+}
+
+dl,
+ol,
+ul {
+	margin-top: 1.5em;
+	margin-bottom: 1.2em;
+}
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li {
+	margin-bottom: 0.8em;
+	line-height: 1.65em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+	font-size: 1em;
+	padding: 0.3em 1em;
+	overflow: auto;
+	color: #777;
+	border: $border_primary;
+	max-width: 100%;
+	width: 100%;
+	border-radius: 4px;
+	.l-site-footer & {
+		background-color: #fff;
+	}
+	.l-site-header & {
+		border: 1px solid var(--color-header-border);
+	}
+}
+textarea {
+	line-height: 1.5;
+}
+
+input[type="date"]{
+	width: auto;
+	line-height: 2;
+}
+
+input[type="submit"] {
+	border: 1px solid $color_key;
+	background: $color_key;
+	padding: 0.8em 1.5em 0.6em;
+	font-size: 1em;
+	margin: 0 auto;
+	cursor: pointer;
+	color: #fff;
+	margin-top: 0;
+	border-radius: 4px;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+blockquote {
+	border-left: 4px solid #777;
+	margin: 0 0 28px;
+	padding: 0.5em 1em 0.5em 1.5em;
+	font-style: italic;
+	cite {
+		display: block;
+		font-weight: bold;
+		letter-spacing: 1px;
+		&:before {
+			content: "— ";
+		}
+	}
+}
+
+//
+img {
+	vertical-align: middle;
+	border-style: none;
+	max-width: 100%;
+	height: auto;
+}
+
+/* 
+ラジオボタンなど横に並べる場合なども多いので label に一括で display:block 指定すると
+ラジオボタンの横に文字がならずに改行されてしまうので 
+label に display:block は指定しない
+*/
+// label {
+// 	display: block;
+// }
+.small,
+small {
+	font-size: 80%;
+	font-weight: 400;
+}
+iframe {
+	border: none;
+}

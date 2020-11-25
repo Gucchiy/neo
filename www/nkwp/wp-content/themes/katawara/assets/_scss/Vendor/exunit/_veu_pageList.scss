@@ -1,0 +1,31 @@
+.l-container{ //ExUnit高速化 CSSをフッターで読み込むにした場合、負けるため追加
+	.veu_pageList_ancestor {
+		margin: 2.5em 0 2em;
+		.pageList_ancestor_title{
+			margin-bottom: 0;
+		}
+		.pageList a:hover{
+			color: $color_key;
+		}
+		.current_page_item>a {
+			font-weight: 500;
+			color: $color_key;
+		}
+		.pageList{
+			.page_item a{
+				padding: 12px 5px;
+				&:hover{
+					text-decoration: none;
+				}
+				&::before{
+					font-family: "Font Awesome 5 Free";
+					font-weight: 900;
+					margin-right: 5px;
+					margin-left: 0;
+					content: "\f105";
+					color: rgba(0,0,0,.2);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+.p-global-menu{
+	list-style: none;
+	li{
+		font-size: .85rem;
+		line-height: 1.4em;
+	}
+	>li{
+		a{
+			position: relative;
+			display: block;
+			color: #666;
+			padding: .9em 1.2em;
+			text-decoration: none;
+			&:hover{
+				text-decoration: none;
+				color: $color_key;
+			}
+		}
+	  &:last-child{
+		border-bottom: 1px solid var(--color-header-border);
+	  }
+	  ul.sub-menu{
+		margin-top: 0;
+		margin-bottom: 0;
+		li{
+			border-top: 1px solid var(--color-header-border);
+		  &:last-child{
+			border-bottom: none;
+		  }
+		  li a{
+			padding-left: 2.4em;
+			li a{
+				padding-left: 3em;
+			}
+		  }
+		}
+	  }
+	}
+}
+
+//global menu 内の.acc-btn
+.device-pc .p-global-menu>li>.acc-btn {
+	@media screen and (min-width:$lg-min) and (max-width:$lg-max) { //.device-pc サイズが狭い場合none
+		display: none;
+	}
+}
+.p-global-menu{
+	.acc-btn {
+		@media (min-width: $lg-min){
+			width: 20px;
+			height: 20px;
+			right: 5px;
+			top: 14px;
+		}
+
+		@media (min-width: $lg-min){
+			position: absolute;
+			border: none;
+			background-color: #f3f3f3;
+			background-size: 15px 15px;
+			cursor: pointer;
+			z-index: 1000;
+		}
+
+		@media screen and (min-width:$xl-min) { //pc size Only
+			width: 24px;
+			height: 24px;
+			border:0;
+			top: 10px;
+			right: 10px;
+		}
+		&-close{
+			width: 20px;
+			height: 20px;
+			background-size: 15px 15px;
+			background: var(--vk-menu-acc-icon-close-white-bg-src) center 50% no-repeat;
+			background-color: var( --vk-color-key-dark, $color_key );
+			@media (min-width:$xl-min) {//pc size Only
+				width: 24px;
+				height: 24px;
+
+			}
+		}
+
+	}
+
+}//.p-global-menu
+
+//iPad size Only
+@media screen and (min-width:$lg-min) and (max-width:$lg-max) {
+	.p-global-menu{
+			justify-content: center;
+			display: flex;
+		>li{
+			padding: 14px 2.1em;
+			.device-pc & {
+				padding: 0;
+				& > a {
+					padding: 14px 2.1em;
+				}
+				&>ul.sub-menu {
+					margin-top:0;
+				}
+			}
+			border-top: none;
+			&:hover{
+				transition: all .5s ease-out;
+				&:before{
+					width: 100%;
+				}
+			}
+			a{
+				padding: 0;
+				color: #333;
+			}
+			&:last-child{
+					border-bottom:none;
+			}
+			&:before{
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				content: "";
+				width: 0;
+				border-bottom-style: solid;
+				border-bottom-width: 1px;
+				border-bottom-color: #2e6da4;
+				-webkit-transition: all .5s ease-out;
+				transition: all .5s ease-out;
+			}
+			&.current-menu-item:before{
+				border-bottom: 1px solid #2e6da4;
+				width: 100%;
+			}
+			&.menu-item-has-children{
+
+				&:hover::after,
+				&.acc-parent-open::after {
+					opacity: 1;
+				}
+			}
+
+			>ul.sub-menu{
+				position: absolute;
+				margin-top: 14px;
+				left: 50%;
+				margin-left: -120px;
+				width: 240px;
+				box-shadow: 0 2px 4px rgba(0,0,0,.1);
+				li{
+					// white-space: nowrap;
+					font-size: 14px;
+					background-color:#fff;
+					a{
+						padding: .85em 1.2em;
+					}
+					&:last-child{
+						border-bottom: none;
+					}
+					ul li a{//孫ページ
+						padding-left: 2.2em;
+					}
+					&.menu-item-has-children > a{
+						padding: .85em 3em .85em 1.2em;
+					}
+				}
+			}
+
+			.sub-menu .acc-btn{
+				top: 12px;
+				right: 10px;
+			}
+			.scrolled &  {
+
+				&:first-child{
+					border-left:none;
+				}
+			}
+		}//li
+		.device-pc &{
+			>li:hover>.sub-menu{
+				opacity: 1;
+				max-height: 1000px;
+			}
+		}
+	}//.p-global-menu
+}//@media screen and (min-width:$lg-min) and (max-width:$lg-max)

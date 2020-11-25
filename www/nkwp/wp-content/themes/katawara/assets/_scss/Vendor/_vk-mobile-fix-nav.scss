@@ -1,0 +1,21 @@
+
+@media (max-width: $md-max) {
+	.mobile-fix-nav_enable .page_top_btn {
+		bottom: calc(62px + 10px);
+		right: 10px;
+	}
+}
+@media (min-width: $lg-min) {
+	.mobile-fix-nav {
+		display: none;
+	}
+}
+.mobile-fix-nav .vk-mobile-nav-menu-btn {
+	//vk-mobile-nav-menu-btnのデザイン変更しているので、これがないとモバイル固定ナビのvk-mobile-nav-menu-btnのデザインが崩れる
+	font-size: unset;
+	font-weight: unset;
+	line-height: unset;
+	.admin-bar & {
+		top: unset;
+	}
+}

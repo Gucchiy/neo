@@ -1,0 +1,15 @@
+@charset "utf-8";
+@import "variable";
+
+.p-widget-footer {
+	margin-bottom: 2.5em;
+	font-size: $widget-font-size-normal;
+	&_title,
+	&_title::before,&_title::after,
+	& ul li > a {
+		border-bottom: 1px solid var(--color-footer-border,#ccc);
+	}
+	ul{ 
+		font-size: $widget-font-size-normal; 
+	}
+}

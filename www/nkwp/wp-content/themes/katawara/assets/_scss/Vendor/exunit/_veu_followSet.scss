@@ -1,0 +1,6 @@
+.veu_followSet {
+    // ExUnit で display:table; が指定してあるため
+    // 角丸にするため overflow:hidden; をするが、display:block はつけない
+    overflow:hidden;
+    border-radius: var( --item-radius);
+}

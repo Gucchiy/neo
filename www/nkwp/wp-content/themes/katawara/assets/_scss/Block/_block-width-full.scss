@@ -1,0 +1,41 @@
+.alignfull { //全幅
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+	&.wp-block-image {
+		// Default block style overwrite
+		// width: 100vw;
+		max-width: 100vw;
+	}
+	@media ( max-width:$sm-max ){
+		.wp-block-media-text__content h2{
+			margin-top: 1.5em;
+		}
+	}
+}
+
+.alignfull,
+.vk_width-full,
+.swiper-container.vk_slider.vk_width-full, // 本当は .vk_width-full だけにしたいが負けるため
+.vk_outer.vk_outer-width-full {
+	@media ( min-width:$xl-min ){
+		// vwはスクロールバーの幅を含めてのサイズというできない子なので正式な数値を出したい場合は使用しない
+		// コンテンツエリアが90%なので、メインエリアの幅は コンテンツエリアを 90 で割って100%を算出する
+		width:calc( ( 100% + 30px ) / 90 * 100 );
+		// 1% の幅を算出してから 5% になるように 5を掛けて、コンテンツエリア内余白の 15px をさらにオフセット 
+		margin-left: calc( ( ( 100% + 30px ) / 90 ) * -5 - 15px);
+		margin-right: calc( ( ( 100% + 30px ) / 90 ) * -5 - 15px);
+	}
+	@media ( min-width:1574px){
+		/*
+		メインエリアは max-width: 1140px; なので
+		画面サイズが 1140px + 114px(左右余白の10%分) + 320px = 1574px より大きい場合はマイナスオフセット値が異なる
+
+		この条件の時のマイナスオフセットは
+		calc( ( 100vw - 320px - 1140px ) / 2 + 15px ) 
+		*/
+		width: calc( 100vw - 320px );
+		margin-left: calc( ( 100vw - 320px - 1140px ) / -2 - 15px ) ;
+		margin-right: calc( ( 100vw - 320px - 1140px ) / -2 - 15px ) ;
+	}
+}

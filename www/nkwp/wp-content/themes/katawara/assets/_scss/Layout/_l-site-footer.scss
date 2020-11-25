@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+$widget-font-size-normal:13px;
+
+.l-site-footer {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	padding: 3.25em 0;
+	background: $verylight_gray_translucent;
+	border-top:1px solid var(--vk-color-key);
+	&_main{
+		padding-bottom: 2em;
+	}
+	&_menu {
+		font-size: 0.95em;
+		width: 100%;
+	} //.l-site-footer_menu
+	.device-pc & {
+		padding-bottom: 0;
+	}
+	&-upper {
+		padding-top: 2em;
+		padding-bottom: 2em;
+		display: block;
+	}
+} //.l-site-footer
+
+/* One column */
+.home {
+	.l-site-footer_menu {
+		margin-right: 0;
+	}
+}

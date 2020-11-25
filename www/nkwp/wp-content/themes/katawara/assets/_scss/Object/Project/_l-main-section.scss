@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* 
+レイアウトではなくレイアウト要素の中の指定
+本来は別途 .p-main-section が存在しても良いようなケース
+*/
+.l-main-section {
+    &_title {
+        font-size:2em;
+    }
+    ol,
+    ul {
+        padding-left: 2em;
+    }
+}

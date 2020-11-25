@@ -1,0 +1,36 @@
+
+.l-container{ //ExUnit高速化 CSSをフッターで読み込むにした場合、負けるため追加
+	.veu_childPage_list {
+		.wp-post-image{
+			@include img-hover;
+		}
+		.childPage_list_body{
+
+			&:hover{
+				color: $color_key;
+				text-decoration: none;
+			}
+		}
+		.childPage_list_title{
+			@include time_transition;
+			margin-bottom: 1.5em;
+			&:hover{
+				color: $color_key;
+			}
+		}
+		.childPage_list_text{
+			@include time_transition;
+		}	
+	
+		.childPage_list_box{
+			&:hover{
+				.btn-xs::after {
+					right: -.05em;
+				}
+			}
+		}
+		p {
+			line-height: 1.7em;
+		}
+	}
+}

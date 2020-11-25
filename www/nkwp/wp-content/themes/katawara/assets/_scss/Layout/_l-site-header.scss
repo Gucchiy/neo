@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*-------------------------------------------*/
+/*	header
+/*-------------------------------------------*/
+
+//.admin-bar
+.admin-bar {
+	.l-site-header {
+		@media screen and (min-width: $xl-min) {
+			top: 32px; // ログイン時、これがないとサイト上部がadminbarで隠れる
+		}
+	}
+	.vk-mobile-nav-menu-btn {
+		top: calc(32px + 0px);
+		@media screen and (max-width: 782px) {
+			top: calc(46px + 0px);
+		}
+	}
+}
+.l-site-header {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	z-index: 2000; //.vk-mobile-nav-menu-btnよりも数字を上にしないと隠れてしまう
+	box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.05);
+	@media screen and (min-width: $xl-min) {
+		position: fixed;
+		left: 0;
+		top: 0; // これがないとサイト上部に隙間があく
+		height: 100%;
+		width: $l-header-width;
+		border-right: $border_primary;
+		box-shadow: none;
+		overflow-y: scroll;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	&::-webkit-scrollbar {
+		//Chrome、Safari scrollbarnone
+		display: none;
+	}
+	&_inner {
+		padding: 0;
+
+		@media screen and (min-width: $xl-min) {
+			padding: 2.6em 1.2em;
+		}
+		ul {
+			margin: 0;
+		}
+	}
+
+	&_global-menu {
+		padding-bottom: 1.2em;
+		@media (max-width: $md-max) {
+			display: none;
+		}
+		ul {
+			margin: 0;
+		}
+	}
+}
+
+//iPad size Only
+@media screen and (min-width: $lg-min) and (max-width: $lg-max) {
+	.l-site-header_global-menu {
+		padding-bottom: 0;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.scrolled & {
+			clear: both;
+			z-index: 1000;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			min-height: unset;
+			background-color: #fff;
+			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+			padding-bottom: 0em;
+		}
+		.scrolled.admin-bar & {
+			//admin-bar
+			top: 32px;
+		}
+	}
+}

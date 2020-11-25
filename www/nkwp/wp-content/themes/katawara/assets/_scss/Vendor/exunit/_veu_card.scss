@@ -1,0 +1,28 @@
+.l-container{ //ExUnit高速化 CSSをフッターで読み込むにした場合、負けるため追加
+	.veu_card {
+		border: $border_primary;
+		border-radius: var( --item-radius);
+		display:block; overflow:hidden;
+		.btn-xs {
+			font-size: 12px;
+			padding: 0.25rem 1.5rem;
+		}
+		.veu_card_title{
+			padding: 0 0 .8em;
+		}
+
+		.contact_txt_tel{
+			padding: 6px 0;
+			font-weight: 500;
+		}
+		.contact_txt_tel_icon {
+			margin-right: .6rem;
+		}
+		.contact_frame{
+			background-color: #fff;
+		}
+		.veu_card_inner{
+			background: #fff;
+		}
+	}
+}

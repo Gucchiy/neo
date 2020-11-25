@@ -1,0 +1,29 @@
+@media (min-width: $lg-min) {
+	//ipad 以上で非表示
+	.vk-mobile-nav-menu-btn {
+		display: none !important;
+	}
+}
+
+.vk-mobile-nav {
+	padding-top: 50px; //menu-btnで被るので
+	&-menu-btn {
+		//menu-btn design変更
+		top: 0px;
+		left: 0px;
+		width: 42px;
+		height: 45px;
+		border: none;
+		background-position: center -4px;
+		text-indent: unset;
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 7.5;
+		text-align: center;
+		border-radius: 0;
+		&.menu-open {
+			border: none;
+			background-position: center -4px;
+		}
+	}
+}

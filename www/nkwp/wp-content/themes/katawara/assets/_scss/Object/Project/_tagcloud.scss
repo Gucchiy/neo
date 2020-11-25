@@ -1,0 +1,25 @@
+.tagcloud {
+	a {
+		font-size: 13px !important;
+		line-height: 2.6em;
+		color: #333;
+		padding: 3px 10px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		white-space: nowrap;
+		background-color: #fff;
+		&:before {
+			color: $light_gray_translucent;
+			margin-right: 5px;
+		}
+		&:hover {
+			text-decoration: none;
+			color: $color_key;
+			border-color: $color_key;
+			&:before {
+				@include time_transition;
+				color: $color_key;
+			}
+		}
+	}
+}

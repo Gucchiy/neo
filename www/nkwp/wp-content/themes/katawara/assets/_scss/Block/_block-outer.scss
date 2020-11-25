@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+コンテンツエリア
+max-width: 1140px;
+	width: 90%;
+	padding-left:15px;
+	padding-right:15px;
+これをはみ出しつつ全体からサイドバーの幅を引いたエリアに収める必要がある
+
+■ アウターとスライドの外側のマイナスオフセット
+左右のマイナスオフセットは calc( ( 100vw - 320px ) * 0.05  + 15px ) 
+*/
+
+.vk_outer.vk_outer-width-full {
+	@media ( min-width:$xl-min ){
+		&.vk_outer-paddingLR-none { //コンテンツエリアに合わせる
+			padding-left: 3.5em;
+			padding-right: 3.5em;
+			.vk_outer_container{
+				width:100%;
+				max-width: 1140px;
+				margin: auto;
+				//.l-containerにかかっているpadding追加
+				padding-right: 15px;
+				padding-left: 15px;
+			}
+		}
+		&.vk_outer-paddingVertical-use {
+			.vk_outer_container{
+				width:100%;
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.l-container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	@media (min-width: $sm-min) {
+		max-width: 540px;
+	}
+	@media (min-width: $md-min) {
+		max-width: 720px;
+	}
+	@media (min-width: $lg-min) {
+		max-width: 960px;
+	}
+	@media (min-width: $xl-min) {
+		max-width: 1140px;
+		width: 90%;
+	}
+
+	&_inner {
+		padding-top: 4em;
+		padding-bottom: 4em;
+		@media (min-width: $lg-min) {
+			display: flex;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			 padding-top: 5em;
+			padding-bottom: 5em;
+		}
+		&-col-one {
+			display: block;
+		}
+		&-paddingVertical-off {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+}

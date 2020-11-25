@@ -1,0 +1,50 @@
+/*-------------------------------------------*/
+/* vk-menu-acc--common
+/*-------------------------------------------*/
+.vk-menu-acc {
+	position: relative;
+	.menu-parent > li {
+		position: relative;
+		z-index: 100;
+		a {
+			display: inline-block;
+		}
+	}
+	li {
+		position: relative;
+		margin-bottom: 0;
+	}
+
+	.acc-btn:before {
+		position: relative;
+		top: -5px;
+		left: 4px;
+		font-size: 16px;
+	}
+
+	ul.sub-menu {
+		max-height: 0;
+		opacity: 0;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
+		display: block;
+		@include time_transition;
+		li {
+			a {
+				display: block;
+				overflow: hidden;
+			}
+		}
+	}
+	ul.acc-child-open {
+		@include time_transition;
+		max-height: 1000px;
+		opacity: 1;
+	}
+	ul.acc-child-close {
+		@include time_transition;
+		max-height: 0;
+		opacity: 0;
+	}
+}

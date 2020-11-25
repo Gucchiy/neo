@@ -1,0 +1,31 @@
+.padSection {
+    border-radius:var( --item-radius);
+}
+.l-container{ //プラグインのcssに負けるため追加
+	#padSection{
+		border: $border_primary;
+		background-color: #fff;
+		h4{
+			border-bottom: $border_primary;
+			padding-bottom: 8px;
+			&::before{
+				@include font-awesome-icon;
+				content:"\f007";
+			}
+		}
+	}
+
+	#latestEntries {
+		h5{
+			margin-bottom: 15px;
+			padding-bottom: 8px;
+			border-bottom: $border_primary;
+		}
+		li.thumbnailBox .postImage a{
+			background-color: #000;
+			img{
+				@include img-hover;
+			}
+		}
+	}
+}

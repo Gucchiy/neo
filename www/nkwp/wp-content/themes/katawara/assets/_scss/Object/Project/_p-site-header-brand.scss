@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.p-site-header-brand {
+	padding: 10px 1em;
+	margin: 0 auto;
+	text-align: center;
+	@media screen and (min-width: $lg-min) and (max-width: $lg-max) {
+		//ipad Pro Only
+		padding: 1.5em 1em;
+		max-width: $md-max;
+	}
+	@media screen and (min-width: $xl-min) {
+		//PC size
+		padding: 1em;
+	}
+	&_description {
+		display: none;
+		@media (min-width: $lg-min) {
+			display: block;
+		}
+		@media screen and (min-width: $lg-min) and (max-width: $lg-max) {
+			//ipad Pro Only
+			padding: 0.5em 1em;
+		}
+		margin-bottom: 0;
+		color: $color_light_gray;
+		font-size: 0.85em;
+		line-height: 1.5;
+	}
+	&_logo {
+		padding: 0 3em;
+		margin: 0;
+		font-size: 1.6rem;
+		line-height: 1.2em;
+		font-weight: 500;
+		margin: auto;
+		@media screen and (min-width: $md-min) {
+			padding: 0 8.5em;
+		}
+		@media screen and (min-width: $xl-min) {
+			padding: 0.5em 1rem;
+			font-size: 32px;
+			font-size: 2rem;
+			line-height: 1.5em;
+			max-width: 280px;
+		}
+		a {
+			color: #333;
+			transition: 0.3s;
+			display: block;
+			&:hover {
+				opacity: 0.5;
+				text-decoration: none;
+			}
+			img {
+				max-width: 100%;
+				width: auto;
+
+				@media screen and (max-width: $lg-max) {
+					max-height: 100px;
+					max-width: 220px;
+				}
+			}
+		}
+	}
+}

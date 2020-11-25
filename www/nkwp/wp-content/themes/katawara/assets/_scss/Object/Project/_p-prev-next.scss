@@ -1,0 +1,23 @@
+.p-prev-next {
+    margin-bottom:3em;
+    .vk_post {
+        @media( max-width:$xs-max ){
+            width:calc( 100% - 30px );
+        }
+        @media( min-width:$sm-min ){
+            width:calc( 50% - 30px );
+        }
+    }
+    &_label{
+        font-size:12px;
+        margin-bottom:0;
+    }
+    &_next {
+        .p-prev-next_label {
+            text-align: right;
+        }
+    }
+    .vk_post_title {
+        margin-top:0.5em;
+    }
+}

@@ -1,0 +1,402 @@
+
+2020/11/25 15:03:03 Web Hook 呼び出し
+array (
+  'id' => '8be78abf-5621-4094-a613-6c2771a8bfe7',
+  'type' => 'ADD_RECORD',
+  'app' => 
+  array (
+    'id' => '1',
+    'name' => 'Kintone-WordPress-日記',
+  ),
+  'record' => 
+  array (
+    'レコード番号' => 
+    array (
+      'type' => 'RECORD_NUMBER',
+      'value' => '47',
+    ),
+    '作業者' => 
+    array (
+      'type' => 'STATUS_ASSIGNEE',
+      'value' => 
+      array (
+        0 => 
+        array (
+          'code' => 'staff',
+          'name' => 'スタッフ ',
+        ),
+      ),
+    ),
+    '更新者' => 
+    array (
+      'type' => 'MODIFIER',
+      'value' => 
+      array (
+        'code' => 'staff',
+        'name' => 'スタッフ ',
+      ),
+    ),
+    '作成者' => 
+    array (
+      'type' => 'CREATOR',
+      'value' => 
+      array (
+        'code' => 'staff',
+        'name' => 'スタッフ ',
+      ),
+    ),
+    'ステータス' => 
+    array (
+      'type' => 'STATUS',
+      'value' => '未提出',
+    ),
+    '$revision' => 
+    array (
+      'type' => '__REVISION__',
+      'value' => '1',
+    ),
+    'ユーザー選択' => 
+    array (
+      'type' => 'USER_SELECT',
+      'value' => 
+      array (
+        0 => 
+        array (
+          'code' => 'staff',
+          'name' => 'スタッフ ',
+        ),
+      ),
+    ),
+    '更新日時' => 
+    array (
+      'type' => 'UPDATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '日時' => 
+    array (
+      'type' => 'DATETIME',
+      'value' => '2020-11-25T15:02:00Z',
+    ),
+    'tag_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+      ),
+    ),
+    'post_content_' => 
+    array (
+      'type' => 'RICH_TEXT',
+      'value' => '<div>build test</div>',
+    ),
+    'category_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+        0 => 'blog',
+      ),
+    ),
+    'title_' => 
+    array (
+      'type' => 'SINGLE_LINE_TEXT',
+      'value' => 'build test',
+    ),
+    'attachment_01_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    'attachment_02_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    '作成日時' => 
+    array (
+      'type' => 'CREATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '$id' => 
+    array (
+      'type' => '__ID__',
+      'value' => '47',
+    ),
+  ),
+  'recordTitle' => 'build test',
+  'url' => 'https://ip3jn5ae57m1.cybozu.com/k/1/show#record=47',
+)
+ステータス → 未提出
+
+
+ ==未承認処理== 
+
+
+2020/11/25 15:03:19 Web Hook 呼び出し
+array (
+  'id' => '57f6f90f-893b-4c32-a315-f75c9c7c5ee9',
+  'type' => 'UPDATE_STATUS',
+  'app' => 
+  array (
+    'id' => '1',
+    'name' => 'Kintone-WordPress-日記',
+  ),
+  'record' => 
+  array (
+    'レコード番号' => 
+    array (
+      'type' => 'RECORD_NUMBER',
+      'value' => '47',
+    ),
+    '作業者' => 
+    array (
+      'type' => 'STATUS_ASSIGNEE',
+      'value' => 
+      array (
+        0 => 
+        array (
+          'code' => 'chief',
+          'name' => 'チーフ',
+        ),
+      ),
+    ),
+    '更新者' => 
+    array (
+      'type' => 'MODIFIER',
+      'value' => 
+      array (
+        'code' => 'staff',
+        'name' => 'スタッフ ',
+      ),
+    ),
+    '作成者' => 
+    array (
+      'type' => 'CREATOR',
+      'value' => 
+      array (
+        'code' => 'staff',
+        'name' => 'スタッフ ',
+      ),
+    ),
+    'ステータス' => 
+    array (
+      'type' => 'STATUS',
+      'value' => '承認待ち',
+    ),
+    '$revision' => 
+    array (
+      'type' => '__REVISION__',
+      'value' => '3',
+    ),
+    'ユーザー選択' => 
+    array (
+      'type' => 'USER_SELECT',
+      'value' => 
+      array (
+        0 => 
+        array (
+          'code' => 'staff',
+          'name' => 'スタッフ ',
+        ),
+      ),
+    ),
+    '更新日時' => 
+    array (
+      'type' => 'UPDATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '日時' => 
+    array (
+      'type' => 'DATETIME',
+      'value' => '2020-11-25T15:02:00Z',
+    ),
+    'tag_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+      ),
+    ),
+    'post_content_' => 
+    array (
+      'type' => 'RICH_TEXT',
+      'value' => '<div>build test</div>',
+    ),
+    'category_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+        0 => 'blog',
+      ),
+    ),
+    'title_' => 
+    array (
+      'type' => 'SINGLE_LINE_TEXT',
+      'value' => 'build test',
+    ),
+    'attachment_01_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    'attachment_02_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    '作成日時' => 
+    array (
+      'type' => 'CREATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '$id' => 
+    array (
+      'type' => '__ID__',
+      'value' => '47',
+    ),
+  ),
+  'recordTitle' => 'build test',
+  'url' => 'https://ip3jn5ae57m1.cybozu.com/k/1/show#record=47',
+)
+ステータス → 承認待ち
+
+
+ ==未承認処理== 
+
+
+2020/11/25 15:03:48 Web Hook 呼び出し
+array (
+  'id' => '307ef81d-85bc-4ef4-b725-7f2cebb48feb',
+  'type' => 'UPDATE_STATUS',
+  'app' => 
+  array (
+    'id' => '1',
+    'name' => 'Kintone-WordPress-日記',
+  ),
+  'record' => 
+  array (
+    'レコード番号' => 
+    array (
+      'type' => 'RECORD_NUMBER',
+      'value' => '47',
+    ),
+    '作業者' => 
+    array (
+      'type' => 'STATUS_ASSIGNEE',
+      'value' => 
+      array (
+      ),
+    ),
+    '更新者' => 
+    array (
+      'type' => 'MODIFIER',
+      'value' => 
+      array (
+        'code' => 'chief',
+        'name' => 'チーフ',
+      ),
+    ),
+    '作成者' => 
+    array (
+      'type' => 'CREATOR',
+      'value' => 
+      array (
+        'code' => 'staff',
+        'name' => 'スタッフ ',
+      ),
+    ),
+    'ステータス' => 
+    array (
+      'type' => 'STATUS',
+      'value' => '承認済み・WEB反映',
+    ),
+    '$revision' => 
+    array (
+      'type' => '__REVISION__',
+      'value' => '5',
+    ),
+    'ユーザー選択' => 
+    array (
+      'type' => 'USER_SELECT',
+      'value' => 
+      array (
+        0 => 
+        array (
+          'code' => 'staff',
+          'name' => 'スタッフ ',
+        ),
+      ),
+    ),
+    '更新日時' => 
+    array (
+      'type' => 'UPDATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '日時' => 
+    array (
+      'type' => 'DATETIME',
+      'value' => '2020-11-25T15:02:00Z',
+    ),
+    'tag_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+      ),
+    ),
+    'post_content_' => 
+    array (
+      'type' => 'RICH_TEXT',
+      'value' => '<div>build test</div>',
+    ),
+    'category_' => 
+    array (
+      'type' => 'CHECK_BOX',
+      'value' => 
+      array (
+        0 => 'blog',
+      ),
+    ),
+    'title_' => 
+    array (
+      'type' => 'SINGLE_LINE_TEXT',
+      'value' => 'build test',
+    ),
+    'attachment_01_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    'attachment_02_' => 
+    array (
+      'type' => 'FILE',
+      'value' => 
+      array (
+      ),
+    ),
+    '作成日時' => 
+    array (
+      'type' => 'CREATED_TIME',
+      'value' => '2020-11-25T15:03:00Z',
+    ),
+    '$id' => 
+    array (
+      'type' => '__ID__',
+      'value' => '47',
+    ),
+  ),
+  'recordTitle' => 'build test',
+  'url' => 'https://ip3jn5ae57m1.cybozu.com/k/1/show#record=47',
+)
+ステータス → 承認済み・WEB反映

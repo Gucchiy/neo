@@ -1,0 +1,58 @@
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-center {
+	text-align: center;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.required {
+	color: #f00;
+}
+.text-danger {
+	color: #dc3545;
+}
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	word-break: normal;
+}
+.form-inline label.screen-reader-text {
+	display: none;
+}
+
+/*-------------------------------------------*/
+/* .btn
+/*-------------------------------------------*/
+.btn {
+	&-default {
+		background: 0 0;
+		color: $color_key;
+		border-color: $color_key;
+		&:focus,
+		&:hover {
+			color: #fff;
+			border-color: $color_key;
+			background-color: $color_key;
+		}
+	} //-default
+	&-block {
+		display: block;
+		width: 100%;
+	}
+} //.btn

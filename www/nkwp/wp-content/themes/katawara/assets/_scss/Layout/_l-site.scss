@@ -1,0 +1,28 @@
+@charset "utf-8";
+.l-site {
+	// height: 100vh; // overflow:hidden があるとスクロールしなくなるのでコメントアウト
+	// min-width: 100vw; // 横スクロールが出るのでvwは使用しない
+	position: relative;
+
+	/*
+	 全幅アイテムを使っている場合に、一定幅以上でどうしても横スクロールが出てしまうために
+	 overflow:hidden;でカットオフしている。
+	 ただし、overflow:hidden; を使うとサイドバーの固定が効かなくなるため、
+	 メインエリアが１カラムの時のみ追加（全幅は1カラムでの使用想定なのでこの処置で問題ない）
+	 */
+	&-maincol-one {
+		width:100%;
+		overflow: hidden;
+	}
+}
+
+/*-------------------------------------------*/
+/*	.l-site-container
+/*  サイトのメインエリア内のコンテンツ幅などの指定
+/*-------------------------------------------*/
+.l-site-container {
+	@media screen and (min-width: $xl-min) {
+		margin-left: $l-header-width;
+		// overflow: hidden; //全幅で配置したときにはみ出すので追加 → 問題ない。むしろあるとサイドバー固定（position:stickey）が効かなくなる
+	}
+}

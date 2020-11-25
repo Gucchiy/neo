@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+$border_primary: 1px solid rgba(0, 0, 0, 0.12);
+$border_light_gray: 1px solid rgba(255, 255, 255, 0.2);
+$btn_radius: 2px;
+$color_key: #dd3333;
+$color_key_dark: #bc0000;
+$color_light_gray: #888;
+$black: rgba(0, 0, 0, 0.9);
+$light_gray_translucent: rgba(0, 0, 0, 0.2);
+$verylight_gray_translucent: rgba(0, 0, 0, 0.04);
+
+$xs-max: 575.98px;
+$sm-max: 767.98px;
+$md-max: 991.98px;
+$lg-max: 1199.98px;
+$xl-max: 1399.98px;
+
+$sm-min: 576px;
+$md-min: 768px;
+$lg-min: 992px;
+$xl-min: 1200px;
+$xxl-min: 1400px;
+
+$l-header-width : 320px;
+
+:root {
+    --item-radius:0.25rem;
+    --vk-color_key:#dd3333;
+    --vk-color_key-dark:#bc0000;
+    --color-footer-border: rgba(0, 0, 0, 0.1) ;
+    --color-header-border: rgba(0, 0, 0, 0.12);
+}

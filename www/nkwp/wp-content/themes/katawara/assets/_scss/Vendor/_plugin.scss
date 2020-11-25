@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*-------------------------------------------*/
+/*	Download Manager
+/*-------------------------------------------*/
+.wpdm-download-link {
+	margin-top: 5px;
+}
+.p-entry-content { //これがないとbootstrap.minに負ける
+	.w3eden{
+		.media {
+			padding: 1em 0;
+			border: none;
+			padding: 0;
+		}
+
+		h3{
+			background:none;
+			a{
+				color: inherit;
+			}
+		}
+
+		.mr-3{
+			width:auto;
+		}
+
+		.wpdmdl-btn {
+			margin-left:0 !important;
+		}
+
+		.media-body {
+			margin-right: 0;
+			margin-bottom: 0;
+			flex: unset;
+		}
+		.package-title:after {
+			border: none;
+		}
+	}
+}
+.wpdm-download-link.btn.btn-primary {
+width: 100%;
+}
+
+@media (max-width: 575.98px) {
+	.w3eden {
+		.media {
+			display: block !important;
+			
+		}
+		.media-body {
+			margin-top:10px;
+			margin-bottom:10px;	
+		}	
+	}
+
+}

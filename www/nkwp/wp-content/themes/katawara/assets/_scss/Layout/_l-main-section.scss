@@ -1,0 +1,27 @@
+@charset "utf-8";
+.l-main-section {
+    &-col-two {
+        //2 column
+        -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        @media screen and (min-width: $lg-min) {
+            width: calc(100% - 310px);
+        }
+    }
+    &-col-one {
+        //1 column
+        width: 100%;
+    }
+    &-pos-right {
+        //sidebar-position Left
+        @media screen and (min-width: $lg-min) {
+            // float: right;
+            -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 2;
+            -webkit-order: 2;
+            order: 2;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+/*-------------------------------------------*/
+/* .veu_contact
+/*-------------------------------------------*/
+.veu_contact {
+	.veu_card{
+		border: $border_primary;
+		border-radius: var( --item-radius);
+	}
+	.contact_frame{
+		background-color: #fff;
+	}
+	.l-main-section & {
+		.contact_bt {
+			@media (min-width: $xl-min){
+				padding: .7em 2em;
+			}
+		}
+	}
+	.l-main-section-col-two & {
+		@media (max-width: $xl-max){
+			.contact_txt {
+				text-align: center;
+				float:none;
+			}
+			.contact_bt {
+				float:none;
+				margin:1em auto 0;
+			}
+		}
+	}
+}
+
+.l-site-header,
+.l-side-section-col-two,
+.l-site-footer {
+	.veu_contact {
+		.contact_bt {
+			padding-left:0.2rem;
+			padding-right:0.2rem;
+		}
+		.contact_txt {
+			margin-bottom:0.8rem;
+		}
+		.contact_txt_tel {
+			font-size:1.4rem;
+			white-space: nowrap;
+			font-weight: 500;
+		}
+		.contact_txt_time {
+			font-size:10px;
+		}
+		//1200px から　1399.98px;
+		@media (min-width: $xl-min) and ( max-width:$xl-max ){
+			.contact_txt_catch {
+				font-size:11px;
+			}
+			.contact_txt_tel {
+				font-size:1.2rem;
+			}
+			.contact_bt_txt {
+				font-size:16px;
+			}
+			.contact_bt_subTxt {
+				font-size:10px;
+			}
+		}
+	}
+}

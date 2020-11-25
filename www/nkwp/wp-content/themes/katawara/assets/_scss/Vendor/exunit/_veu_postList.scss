@@ -1,0 +1,47 @@
+
+	.p-widget{ //ExUnit高速化 CSSをフッターで読み込むにした場合、負けるため追加
+		       // ヘッダーサイドウィジェットにも効かせたいのでp-widgetにしている
+		.veu_postList {
+			.postList_date {
+				font-size: 12px;
+				color: inherit;
+				&::before {
+					@include font-awesome-icon;
+					content: "\f073";
+				}
+			}
+			.postList_miniThumb .postList_item {
+				border-bottom:1px solid #ccc;
+				.l-site-header & {
+					border-bottom:1px solid var(--color-header-border,#ccc);
+				}
+				.l-site-footer & {
+					border-bottom:1px solid var(--color-footer-border,#ccc);
+				}
+			}
+
+			.postList_miniThumb {
+				.postList_title{
+					margin: 3px 0 3px;
+				}
+				.postList_thumbnail {
+
+					a{ 
+						width: 82px;
+						overflow: hidden;
+						position: relative;
+						background-color: #000;
+						//edgeで謎の隙間ができるのでborderとoutlineを追加
+					    border: 2px solid #fff;
+						outline: 1px solid #e5e5e5;
+						outline-offset: -1px;
+						img{
+							@include img-hover;
+						}
+
+					}
+				}
+			}
+		}
+	}
+
