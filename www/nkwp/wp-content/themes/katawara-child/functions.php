@@ -38,20 +38,6 @@ function customize_import_kintone_insert_post_author( $author_id ) {
 add_filter( 'import_kintone_insert_post_author', 'customize_import_kintone_insert_post_author' );
 //Publish kintone data でデフォルトの投稿ユーザーを設定する
 
-//Advanced Custom Fields に登録した画像の一枚目を投稿のアイキャッチに設定する
-function acf_set_featured_image( $value, $post_id, $field  ){
-    
-    if($value != ''){
-	    //Add the value which is the image ID to the _thumbnail_id meta data for the current post
-	    add_post_meta($post_id, '_thumbnail_id', $value);
-    }
- 
-    return $value;
-}
-
-// acf/update_value/name={$field_name} - filter for a specific field based on it's name
-add_filter('acf/update_value/name=attachment_01', 'acf_set_featured_image', 10, 3);
-
 //ステータスが「承認済み」の時のみ WP にポストされるように変更
 function custom_kintone_to_wp_kintone_data($kintone_data){
     if( strcmp( $kintone_data['record']['ステータス']['value'], '承認済み・WEB反映' ) != 0 ){
