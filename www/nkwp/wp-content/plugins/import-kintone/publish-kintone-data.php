@@ -648,15 +648,6 @@ class KintoneToWP {
 
 		} else {
 
-			// Added by Gucchiy ---
-			if( strcmp( $update_kintone_data['record']['ステータス']['value'], '承認済み・WEB反映' ) != 0 ){
-
-				error_log( "\n\n ==未承認処理== \n\n", 3, $debug_output_file);
-				return;
-	
-			}
-			// --- Added by Gucchiy
-
 			$kintone_id = $update_kintone_data['record']['$id']['value'];
 
 		}

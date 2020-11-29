@@ -52,4 +52,14 @@ function acf_set_featured_image( $value, $post_id, $field  ){
 // acf/update_value/name={$field_name} - filter for a specific field based on it's name
 add_filter('acf/update_value/name=attachment_01', 'acf_set_featured_image', 10, 3);
 
-//Advanced Custom Fields に登録した画像の一枚目をアイキャッチに設定する
+//ステータスが「承認済み」の時のみ WP にポストされるように変更
+function custom_kintone_to_wp_kintone_data($kintone_data){
+    if( strcmp( $kintone_data['record']['ステータス']['value'], '承認済み・WEB反映' ) != 0 ){
+      // WPに取り込みたいスタータスではない場合、空の配列をリターンする
+      return array();
+    }
+    
+    return $kintone_data;
+  }
+  
+  add_filter( 'kintone_to_wp_kintone_data', 'custom_kintone_to_wp_kintone_data' );
