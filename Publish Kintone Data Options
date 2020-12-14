@@ -1,0 +1,105 @@
+<?php
+/*
+Plugin Name: Publish Kintone Data Options
+Plugin URI:
+Description: Publish Kintone Data のオプション集 設定書き換えはプラグイン内で
+Version: 1.0.0
+Author: HITOSHI MATSUNO
+Author URI:
+License: GPLv2 or later
+参考
+https://taizo.junonet.biz/my-lightning/
+*/
+
+
+/*
+ ここからコードをいれてください。
+-----------------------------------------------------------*/
+
+// import-kintone-data-options管理のCSSを追加
+
+function import_kintone_data_options_css() {
+	$plugin_url = plugin_dir_url( __FILE__ );
+	wp_enqueue_style( 'import_kintone_data_options_css', $plugin_url .'style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'import_kintone_data_options_css', 999 );
+
+//Publish kintone data で【下書き】保存を【公開】で保存されるように変更 
+function customize_import_kintone_insert_post_status( $status ) {
+
+	return 'publish'; // デフォルト【公開】
+}
+
+add_filter( 'import_kintone_insert_post_status', 'customize_import_kintone_insert_post_status' );
+//Publish kintone data で【下書き】保存を【公開】で保存されるように変更 
+
+//Publish kintone data でデフォルトの投稿ユーザーを設定する
+function customize_import_kintone_insert_post_author( $author_id ) {
+
+	return 3; // ユーザーID nkwp_post
+}
+
+add_filter( 'import_kintone_insert_post_author', 'customize_import_kintone_insert_post_author' );
+//Publish kintone data でデフォルトの投稿ユーザーを設定する
+
+//ステータスが「承認済み」の時のみ WP にポストされるように変更
+function custom_kintone_to_wp_kintone_data($kintone_data){
+  if( strcmp( $kintone_data['record']['ステータス']['value'], '承認済み・WEB反映' ) != 0 ){
+    // WPに取り込みたいスタータスではない場合、空の配列をリターンする
+    return array();
+  }
+  
+  return $kintone_data;
+}
+
+add_filter( 'kintone_to_wp_kintone_data', 'custom_kintone_to_wp_kintone_data' );
+//ステータスが「承認済み」の時のみ WP にポストされるように変更
+
+/*
+ ここまで
+-----------------------------------------------------------*/
+
+/*
+ * import-kintone-data-optionsの更新を非表示
+ */
+if ( ! function_exists( 'import_kintone_data_options_hide_updateplugin' ) ) :
+
+function import_kintone_data_options_hide_updateplugin( $data ) {
+	if ( isset( $data->response['import_kintone_data_options/publish-kintone-data-options.php'] ) ) {
+		unset( $data->response['import_kintone_data_options/publish-kintone-data-options.php'] );
+	}
+	return $data;
+}
+add_filter( 'site_option__site_transient_update_plugins', 'import_kintone_data_options_hide_updateplugin' );
+endif; // import_kintone_data_options_hide_updateplugin
+
+/*
+ * import-kintone-data-options を最後に読み込むようにする。
+ */
+if ( ! function_exists( 'import_kintone_data_options_last_load' ) ) :
+
+function import_kintone_data_options_last_load() {
+
+	$this_activeplugin  = '';
+	$this_plugin        = 'import_kintone_data_options/publish-kintone-data-options.php';    //最後に読み込みたいプラグイン
+	$active_plugins     = get_option( 'active_plugins' );
+	$new_active_plugins = array();
+
+	foreach ( $active_plugins as $plugins ) {
+		if( $plugins != $this_plugin ){
+			$new_active_plugins[] = $plugins;
+		}else{
+			$this_activeplugin = $this_plugin;
+		}
+	}
+
+	if( $this_activeplugin ){
+		$new_active_plugins[] = $this_activeplugin;
+	}
+
+	if( ! empty( $new_active_plugins ) ){
+		update_option( 'active_plugins' ,  $new_active_plugins );
+	}
+}
+add_action( 'activated_plugin', 'import_kintone_data_options_last_load' );
+endif; // import_kintone_data_options_last_load
